@@ -15,3 +15,4 @@ local path. This can be done with the following MATLAB commands.
 
 addpath('C:\path\to\cea\', '-end');
 savepath();
+
