@@ -1,9 +1,9 @@
 # LPSimulation 
 MATLAB CEA wrapper for rocket problems that allows for multiple fuel/oxidizer
 entry and unlimited pressure, mixture, and ratio inputs (usually limited by CEA
-to around 14 each). Data is output in a convenient MATLAB containers.Map data
+to around 14 each). Data is output in a convenient MATLAB containers. Map data
 type that stores all performance, compressible flow, thermal property, and
-molar concentration values normally seen in a standard CEA '.out' file. See
+molar concentration values normally seen in a standard CEA `.out` file. See
 `cea_rocket_example.m` for an example script and type `help {file}` where
 `{file}` could be any of the MATLAB functions provided.
 
@@ -15,6 +15,6 @@ to see the full performance benefits. Then add the 'cea/' folder to your MATLAB
 local path. This can be done with the following MATLAB commands:
 
 ```matlab
-addpath('C:\path\to\cea\', '-end');
+addpath('C:\path\into\cea\', '-end');
 savepath();
 ```
